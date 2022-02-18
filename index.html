@@ -171,7 +171,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-02-18 18:05:04 / 修改时间：18:05:55" itemprop="dateCreated datePublished" datetime="2022-02-18T18:05:04+08:00">2022-02-18</time>
+              <time title="创建时间：2022-02-18 18:21:44 / 修改时间：18:22:11" itemprop="dateCreated datePublished" datetime="2022-02-18T18:21:44+08:00">2022-02-18</time>
             </span>
 
           
@@ -185,9 +185,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>[toc]</p>
-<h1 id="1-导读"><a href="#1-导读" class="headerlink" title="1. 导读"></a>1. 导读</h1><h2 id="1-1-入门基础"><a href="#1-1-入门基础" class="headerlink" title="1.1 入门基础"></a>1.1 入门基础</h2><p>基础语法+算法原理+软件工程</p>
-<h1 id="2-环境搭建"><a href="#2-环境搭建" class="headerlink" title="2. 环境搭建"></a>2. 环境搭建</h1><h2 id="pip-包管理"><a href="#pip-包管理" class="headerlink" title="pip:包管理"></a>pip:包管理</h2><ol>
+          <h1 id="导读"><a href="#导读" class="headerlink" title="导读"></a>导读</h1><h2 id="入门基础"><a href="#入门基础" class="headerlink" title="入门基础"></a>入门基础</h2><p>基础语法+算法原理+软件工程</p>
+<h1 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h1><h2 id="pip-包管理"><a href="#pip-包管理" class="headerlink" title="pip:包管理"></a>pip:包管理</h2><ol>
 <li>查看已经安装的包:<code>pip list</code></li>
 <li>安装包:<code>pip install 包名</code></li>
 <li>卸载包:<code>pip uninstall 包名</code> </li>
@@ -214,7 +213,7 @@
 <li>添加目录:<code>git add .</code></li>
 <li>添加指定文件:<code>git add 文件名</code></li>
 <li>提交(添加文件到库):<code>git commit -m &quot;说明信息&quot;</code></li>
-<li>推送到远程仓库:<code>git push</code><h1 id="3-基础语法"><a href="#3-基础语法" class="headerlink" title="3. 基础语法"></a>3. 基础语法</h1><h2 id="3-1-变量"><a href="#3-1-变量" class="headerlink" title="3.1 变量"></a>3.1 变量</h2></li>
+<li>推送到远程仓库:<code>git push</code><h1 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2></li>
 </ul>
 </li>
 <li>是什么<br><br>变量是一个容器，是内存中的一段空间，是内存中的某个位置<br>变量是一个“名字”，“标签”，用来区分另一个值</li>
@@ -227,7 +226,7 @@
 <li>字母数字下划线，数字不开头</li>
 <li>不包含空格</li>
 <li>不与函数&#x2F;关键字名称相同(print)</li>
-<li>简单易懂，见名知意<h2 id="3-2-数据类型"><a href="#3-2-数据类型" class="headerlink" title="3.2 数据类型"></a>3.2 数据类型</h2></li>
+<li>简单易懂，见名知意<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2></li>
 </ol>
 </li>
 </ul>
@@ -235,7 +234,7 @@
 <li>数值型：整数、浮点数</li>
 <li>字符型</li>
 <li>布尔类型：真假、假范围</li>
-<li>类型转换：数值–&gt;字符、字符–&gt;数值<h2 id="3-3-字符串"><a href="#3-3-字符串" class="headerlink" title="3.3 字符串"></a>3.3 字符串</h2></li>
+<li>类型转换：数值–&gt;字符、字符–&gt;数值<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2></li>
 </ol>
 <ul>
 <li><p>常用的转义字符</p>
@@ -244,7 +243,7 @@
 <li><p>基本运算</p>
 <ol>
 <li>计算长度:<code>len(&#39;kobe&#39;)</code></li>
-<li>截取(切片):<code>string(开始:结束:步长)</code><h2 id="3-4-运算符"><a href="#3-4-运算符" class="headerlink" title="3.4 运算符"></a>3.4 运算符</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">flowchart TB</span><br><span class="line">a(运算符)</span><br><span class="line">b(算数运算符)</span><br><span class="line">c(赋值运算符)</span><br><span class="line">d(关系运算符)</span><br><span class="line">e(逻辑运算符)</span><br><span class="line">f(类型转换)</span><br><span class="line">b1(加减乘除)</span><br><span class="line">b2(取余数)</span><br><span class="line">b3(整除)</span><br><span class="line">b4(幂次)</span><br><span class="line">c1(基础运算符)</span><br><span class="line">c2(符合运算符)</span><br><span class="line">d1(大于/小于/等于)</span><br><span class="line">d2(大于等于)</span><br><span class="line">d3(小于等于)</span><br><span class="line">d4(不等于)</span><br><span class="line">e1(与)</span><br><span class="line">e2(或)</span><br><span class="line">e3(非)</span><br><span class="line">f1(数值转字符)</span><br><span class="line">f2(字符转数值)</span><br><span class="line">a--&gt;b</span><br><span class="line">b--&gt;b1</span><br><span class="line">b--&gt;b2</span><br><span class="line">b--&gt;b3</span><br><span class="line">b--&gt;b4</span><br><span class="line">a--&gt;c</span><br><span class="line">c--&gt;c1</span><br><span class="line">c--&gt;c2</span><br><span class="line">a--&gt;d</span><br><span class="line">d--&gt;d1</span><br><span class="line">d--&gt;d2</span><br><span class="line">d--&gt;d3</span><br><span class="line">d--&gt;d4</span><br><span class="line">a--&gt;e</span><br><span class="line">e--&gt;e1</span><br><span class="line">e--&gt;e2</span><br><span class="line">e--&gt;e3</span><br><span class="line">a--&gt;f</span><br><span class="line">f--&gt;f1</span><br><span class="line">f--&gt;f2</span><br></pre></td></tr></table></figure></li>
+<li>截取(切片):<code>string(开始:结束:步长)</code><h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">flowchart TB</span><br><span class="line">a(运算符)</span><br><span class="line">b(算数运算符)</span><br><span class="line">c(赋值运算符)</span><br><span class="line">d(关系运算符)</span><br><span class="line">e(逻辑运算符)</span><br><span class="line">f(类型转换)</span><br><span class="line">b1(加减乘除)</span><br><span class="line">b2(取余数)</span><br><span class="line">b3(整除)</span><br><span class="line">b4(幂次)</span><br><span class="line">c1(基础运算符)</span><br><span class="line">c2(符合运算符)</span><br><span class="line">d1(大于/小于/等于)</span><br><span class="line">d2(大于等于)</span><br><span class="line">d3(小于等于)</span><br><span class="line">d4(不等于)</span><br><span class="line">e1(与)</span><br><span class="line">e2(或)</span><br><span class="line">e3(非)</span><br><span class="line">f1(数值转字符)</span><br><span class="line">f2(字符转数值)</span><br><span class="line">a--&gt;b</span><br><span class="line">b--&gt;b1</span><br><span class="line">b--&gt;b2</span><br><span class="line">b--&gt;b3</span><br><span class="line">b--&gt;b4</span><br><span class="line">a--&gt;c</span><br><span class="line">c--&gt;c1</span><br><span class="line">c--&gt;c2</span><br><span class="line">a--&gt;d</span><br><span class="line">d--&gt;d1</span><br><span class="line">d--&gt;d2</span><br><span class="line">d--&gt;d3</span><br><span class="line">d--&gt;d4</span><br><span class="line">a--&gt;e</span><br><span class="line">e--&gt;e1</span><br><span class="line">e--&gt;e2</span><br><span class="line">e--&gt;e3</span><br><span class="line">a--&gt;f</span><br><span class="line">f--&gt;f1</span><br><span class="line">f--&gt;f2</span><br></pre></td></tr></table></figure></li>
 </ol>
 </li>
 <li><p>类型转换</p>
@@ -256,14 +255,15 @@
 </ol>
 </li>
 </ul>
-<h1 id="4-数据结构"><a href="#4-数据结构" class="headerlink" title="4. 数据结构"></a>4. 数据结构</h1><h2 id="4-1-列表-x3D-x3D-可变，有序，-允许重复-x3D-x3D"><a href="#4-1-列表-x3D-x3D-可变，有序，-允许重复-x3D-x3D" class="headerlink" title="4.1 列表(&#x3D;&#x3D;可变，有序， 允许重复&#x3D;&#x3D;)"></a>4.1 列表(&#x3D;&#x3D;可变，有序， 允许重复&#x3D;&#x3D;)</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">flowchart TB</span><br><span class="line">a(列表)</span><br><span class="line">b(定义)</span><br><span class="line">c(访问)</span><br><span class="line">d(添加)</span><br><span class="line">e(删除)</span><br><span class="line">a--&gt;b</span><br><span class="line">a--&gt;c</span><br><span class="line">a--&gt;d</span><br><span class="line">a--&gt;e</span><br></pre></td></tr></table></figure>
+<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="列表-x3D-x3D-可变，有序，-允许重复-x3D-x3D"><a href="#列表-x3D-x3D-可变，有序，-允许重复-x3D-x3D" class="headerlink" title="列表(&#x3D;&#x3D;可变，有序， 允许重复&#x3D;&#x3D;)"></a>列表(&#x3D;&#x3D;可变，有序， 允许重复&#x3D;&#x3D;)</h2><pre><code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">flowchart TB</span><br><span class="line">a(列表)</span><br><span class="line">b(定义)</span><br><span class="line">c(访问)</span><br><span class="line">d(添加)</span><br><span class="line">e(删除)</span><br><span class="line">a--&gt;b</span><br><span class="line">a--&gt;c</span><br><span class="line">a--&gt;d</span><br><span class="line">a--&gt;e</span><br></pre></td></tr></table></figure>
+</code></pre>
 <ul>
 <li>定义<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line">a1 = [<span class="number">1</span>, <span class="string">&#x27;哈哈哈&#x27;</span>, [<span class="number">1</span>, <span class="number">3</span>, <span class="string">&#x27;哈哈哈&#x27;</span>]]</span><br><span class="line">b = [] <span class="comment"># 构建一个空列表</span></span><br></pre></td></tr></table></figure></li>
 <li>访问:<code>a[start:end:step]</code>     (区间为左闭右开)<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 索引访问，这里注意正索引从0开始，负索引从-1开始</span></span><br><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">0</span>]</span><br><span class="line"><span class="built_in">print</span>(a[<span class="number">0</span>:<span class="number">4</span>:<span class="number">2</span>])</span><br><span class="line"><span class="built_in">print</span>(a[<span class="number">0</span>:<span class="number">3</span>]) <span class="comment"># 默认步长为1</span></span><br><span class="line"><span class="built_in">print</span>(a[:<span class="number">3</span>]) <span class="comment"># 默认左边从0开始，步长为1</span></span><br></pre></td></tr></table></figure></li>
 <li>添加（<code>a.append()</code>）<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br><span class="line">a.append(<span class="number">5</span>) <span class="comment"># 在列表末尾添加元素整数5</span></span><br><span class="line">a.append(<span class="string">&#x27;5&#x27;</span>) <span class="comment"># 在列表末尾添加元素字符串&quot;5&quot;</span></span><br></pre></td></tr></table></figure></li>
 <li>删除(删除列表中的元素、删除列表)<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br><span class="line"><span class="keyword">del</span> a[<span class="number">2</span>] <span class="comment"># 删除第三个元素3</span></span><br><span class="line"><span class="keyword">del</span> a  <span class="comment"># 删除列表a</span></span><br></pre></td></tr></table></figure></li>
 </ul>
-<h2 id="4-2-元组-x3D-x3D-不可变，-有序，允许重复-x3D-x3D"><a href="#4-2-元组-x3D-x3D-不可变，-有序，允许重复-x3D-x3D" class="headerlink" title="4.2 元组(&#x3D;&#x3D;不可变， 有序，允许重复&#x3D;&#x3D;)"></a>4.2 元组(&#x3D;&#x3D;不可变， 有序，允许重复&#x3D;&#x3D;)</h2><ul>
+<h2 id="元组-x3D-x3D-不可变，-有序，允许重复-x3D-x3D"><a href="#元组-x3D-x3D-不可变，-有序，允许重复-x3D-x3D" class="headerlink" title="元组(&#x3D;&#x3D;不可变， 有序，允许重复&#x3D;&#x3D;)"></a>元组(&#x3D;&#x3D;不可变， 有序，允许重复&#x3D;&#x3D;)</h2><ul>
 <li>创建<ul>
 <li>基本语法:<code>a = (4, 5, 6)</code></li>
 <li>与列表的区别</li>
@@ -283,7 +283,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="4-3-字典-x3D-x3D-可变，无序，键不重复-x3D-x3D"><a href="#4-3-字典-x3D-x3D-可变，无序，键不重复-x3D-x3D" class="headerlink" title="4.3 字典(&#x3D;&#x3D;可变，无序，键不重复&#x3D;&#x3D;)"></a>4.3 字典(&#x3D;&#x3D;可变，无序，键不重复&#x3D;&#x3D;)</h2><ul>
+<h2 id="字典-x3D-x3D-可变，无序，键不重复-x3D-x3D"><a href="#字典-x3D-x3D-可变，无序，键不重复-x3D-x3D" class="headerlink" title="字典(&#x3D;&#x3D;可变，无序，键不重复&#x3D;&#x3D;)"></a>字典(&#x3D;&#x3D;可变，无序，键不重复&#x3D;&#x3D;)</h2><ul>
 <li>定义:键值对(<code>key:value</code>)组成<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">    <span class="string">&quot;小明&quot;</span>: <span class="number">18</span>,</span><br><span class="line">    <span class="string">&quot;小兰&quot;</span>: <span class="number">17</span>,</span><br><span class="line">    <span class="string">&quot;小刚&quot;</span>: <span class="number">16</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;d=&quot;</span>, d)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;type(d):&#x27;</span>, <span class="built_in">type</span>(d))</span><br></pre></td></tr></table></figure></li>
 <li>引用<ul>
 <li>引用<code>a[&quot;小明&quot;]</code><blockquote>
@@ -302,7 +302,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="4-4-集合（-x3D-x3D-无序，不重复-x3D-x3D-）"><a href="#4-4-集合（-x3D-x3D-无序，不重复-x3D-x3D-）" class="headerlink" title="4.4 集合（&#x3D;&#x3D;无序，不重复&#x3D;&#x3D;）"></a>4.4 集合（&#x3D;&#x3D;无序，不重复&#x3D;&#x3D;）</h2><ul>
+<h2 id="集合（-x3D-x3D-无序，不重复-x3D-x3D-）"><a href="#集合（-x3D-x3D-无序，不重复-x3D-x3D-）" class="headerlink" title="集合（&#x3D;&#x3D;无序，不重复&#x3D;&#x3D;）"></a>集合（&#x3D;&#x3D;无序，不重复&#x3D;&#x3D;）</h2><ul>
 <li>定义<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 第一种构建方式：直接构建一个集合</span></span><br><span class="line">mySet = &#123;<span class="string">&quot;小明&quot;</span>, <span class="string">&quot;python教程&quot;</span>, <span class="string">&quot;基础知识&quot;</span>&#125;</span><br><span class="line"><span class="comment"># 第二种构建方式：类型转换（将一个列表/元组转换为集合</span></span><br><span class="line">mySet = <span class="built_in">set</span>([<span class="string">&quot;小明&quot;</span>, <span class="string">&quot;小红&quot;</span>, <span class="string">&quot;小刚&quot;</span>])</span><br><span class="line">mySet2 = <span class="built_in">set</span>((<span class="string">&quot;小明&quot;</span>, <span class="string">&quot;小红&quot;</span>, <span class="string">&quot;小刚&quot;</span> ))</span><br></pre></td></tr></table></figure></li>
 <li>添加:<code>mySet.add(&quot;小兰&quot;)</code></li>
 <li>删除<ul>
@@ -317,7 +317,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="4-5-列表、元组、字典和集合的对比"><a href="#4-5-列表、元组、字典和集合的对比" class="headerlink" title="4.5 列表、元组、字典和集合的对比"></a>4.5 列表、元组、字典和集合的对比</h2><table>
+<h2 id="列表、元组、字典和集合的对比"><a href="#列表、元组、字典和集合的对比" class="headerlink" title="列表、元组、字典和集合的对比"></a>列表、元组、字典和集合的对比</h2><table>
 <thead>
 <tr>
 <th>数据结构</th>
@@ -356,7 +356,7 @@
 <td>{}</td>
 </tr>
 </tbody></table>
-<h1 id="5-分支结构"><a href="#5-分支结构" class="headerlink" title="5. 分支结构"></a>5. 分支结构</h1><h1 id="6-循环"><a href="#6-循环" class="headerlink" title="6. 循环"></a>6. 循环</h1><h1 id="7-函数"><a href="#7-函数" class="headerlink" title="7. 函数"></a>7. 函数</h1><h1 id="8-模块与包"><a href="#8-模块与包" class="headerlink" title="8. 模块与包"></a>8. 模块与包</h1><h1 id="9-高级语法"><a href="#9-高级语法" class="headerlink" title="9. 高级语法"></a>9. 高级语法</h1><h1 id="10-面向对象"><a href="#10-面向对象" class="headerlink" title="10. 面向对象"></a>10. 面向对象</h1><h1 id="11-文件操作"><a href="#11-文件操作" class="headerlink" title="11. 文件操作"></a>11. 文件操作</h1><h1 id="12-数据库基础"><a href="#12-数据库基础" class="headerlink" title="12. 数据库基础"></a>12. 数据库基础</h1><h1 id="13-错误处理"><a href="#13-错误处理" class="headerlink" title="13. 错误处理"></a>13. 错误处理</h1>
+<h1 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h1><h1 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h1><h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h1 id="模块与包"><a href="#模块与包" class="headerlink" title="模块与包"></a>模块与包</h1><h1 id="高级语法"><a href="#高级语法" class="headerlink" title="高级语法"></a>高级语法</h1><h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><h1 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h1><h1 id="数据库基础"><a href="#数据库基础" class="headerlink" title="数据库基础"></a>数据库基础</h1><h1 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h1>
       
     </div>
 
