@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sean&#39;s Blog</title>
+  
+  <subtitle>Sean</subtitle>
+  <link href="https://tbg-tbg.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://tbg-tbg.github.io/"/>
+  <updated>2022-02-23T06:47:21.070Z</updated>
+  <id>https://tbg-tbg.github.io/</id>
+  
+  <author>
+    <name>Sean</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/Untitled/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/Untitled/</id>
+    <published>2022-02-23T06:47:13.367Z</published>
+    <updated>2022-02-23T06:47:21.070Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>短视频</title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E7%9F%AD%E8%A7%86%E9%A2%91/</id>
+    <published>2022-02-23T03:50:18.683Z</published>
+    <updated>2022-02-23T06:46:01.285Z</updated>
+    
+    
+    <summary type="html">短视频拍摄与剪辑技法</summary>
+    
+    
+    
+    <category term="摄影" scheme="https://tbg-tbg.github.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E9%97%AE%E7%AD%94/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E9%97%AE%E7%AD%94/</id>
+    <published>2022-02-23T03:49:53.495Z</published>
+    <updated>2022-02-23T03:49:53.495Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/PR%E5%89%AA%E8%BE%91/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/PR%E5%89%AA%E8%BE%91/</id>
+    <published>2022-02-23T03:49:44.326Z</published>
+    <updated>2022-02-23T03:49:44.326Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E5%90%8E%E6%9C%9F%E8%BF%9B%E9%98%B6/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E5%90%8E%E6%9C%9F%E8%BF%9B%E9%98%B6/</id>
+    <published>2022-02-23T03:49:38.357Z</published>
+    <updated>2022-02-23T03:49:38.357Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E5%90%8E%E6%9C%9F%E5%9F%BA%E7%A1%80/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E5%90%8E%E6%9C%9F%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-02-23T03:49:31.857Z</published>
+    <updated>2022-02-23T03:49:31.857Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E8%BF%9B%E9%98%B6/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E8%BF%9B%E9%98%B6/</id>
+    <published>2022-02-23T03:48:49.798Z</published>
+    <updated>2022-02-23T03:48:49.798Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>摄影基础</title>
+    <link href="https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E5%9F%BA%E7%A1%80/"/>
+    <id>https://tbg-tbg.github.io/2022/02/23/%E6%91%84%E5%BD%B1%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-02-23T03:48:30.174Z</published>
+    <updated>2022-02-23T03:51:51.100Z</updated>
+    
+    
+    
+    
+    <category term="摄影" scheme="https://tbg-tbg.github.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python基础</title>
+    <link href="https://tbg-tbg.github.io/2022/02/21/PythonNotes/"/>
+    <id>https://tbg-tbg.github.io/2022/02/21/PythonNotes/</id>
+    <published>2022-02-21T08:03:32.743Z</published>
+    <updated>2022-02-23T06:46:46.134Z</updated>
+    
+    
+    <summary type="html">Python语言基础知识</summary>
+    
+    
+    
+    <category term="软件测试" scheme="https://tbg-tbg.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://tbg-tbg.github.io/2022/02/16/hello-world/"/>
+    <id>https://tbg-tbg.github.io/2022/02/16/hello-world/</id>
+    <published>2022-02-16T03:53:39.308Z</published>
+    <updated>2022-02-23T06:47:04.114Z</updated>
+    
+    
+    <summary type="html">hexo的开始主页</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
